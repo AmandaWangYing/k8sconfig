@@ -1,13 +1,9 @@
 ### install hyperhit and minikube
-`brew update`
-
-`brew install hyperkit`
-
-`brew install minikube`
-
-`kubectl`
-
-`minikube`
+    brew update
+    brew install hyperkit
+    brew install minikube
+    kubectl
+    minikube
 
 ### create minikube cluster
 `minikube start --vm-driver=hyperkit`
