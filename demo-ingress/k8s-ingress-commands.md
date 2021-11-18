@@ -1,3 +1,9 @@
+### Enable addon in minikube and check status
+    minikube addons list
+    minikube addons enable dashboard
+    minikube addons enable ingress
+    kubectl get pods -n ingress-nginx
+    
 ### Create Ingress in kubernetes-dashboard Namespace
     kubectl apply -f dashboard-ingress.yaml
 
