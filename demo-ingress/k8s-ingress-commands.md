@@ -11,5 +11,5 @@
 
 ### Update hosts file with minikube external ip and ingress host
     sudo vim /etc/hosts
-add following line in the file: 
+  - Add following line in the file: 
 `external ip    hostname (ex dashboard.com)`
